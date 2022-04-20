@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.cont_principal{
+    width: 100%;
+    height: 100%;
+}
+
+.encabezado{
+    background-color: #1E1A13;
+    align-content: center;
+}
+
+.texto_ecabezado{
+    font-family: 'Raleway';
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 1.5% 0% 1.5% 0%;
+}
+
+.img_principal{
+    width: 100%;
+    height: 100%;
+    top: 73px;
+}
+
+.cont_desc_iguana{
+    margin-top: -5px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.desc_iguana{
+    width: 30%;
+    padding: 10% 10% 10% 10%;
+}
+
+.texto_desc_iguana{
+    width: 100%;
+    text-align: left;  
+    font-family: 'Raleway';
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.cont_img_desc_iguana{
+    padding: 8% 10% 5% 10%;
+    width: 30%;
+}
+
+.img_desc_iguana{
+    align-content: center;
+    width: 100%;
+}
+
+.caract_generales{
+    text-transform: uppercase;
+    background-color: #1E1A13;
+    width: 100%;
+    display: flex;
+    display: inline-block;
+}
+
+.tit_caract_generales{
+    font-family: 'Raleway';
+    font-size: 40px;
+    padding: 2% 0% 0% 0%;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1
+    
+}
+
+.caract_espec{
+    width: 30%;
+    padding: 1%;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    margin: 0 0 5px 0;
+}
+
+.caract_espec i{
+    color: white;
+    display: flex;
+    padding: 0.5em;
+    justify-content: center;
+}
+
+.tit_caract_espec{
+    font-family: 'Raleway';
+    font-size: 24px;
+    padding: 0% 0% 5% 0%;
+    text-align: center;
+    color: white;
+}
+
+
+.galeria_iguanas{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    align-content: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+   
+   
+}
+
+.img_galeria_iguanas{
+    width: 60%;
+    max-width: 350px;
+    max-height: 250px;
+    padding: 10px 0 10px 0;
+
+    
+}
+
+.pie_pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    background-color: #1E1A13;
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway';
+  }
